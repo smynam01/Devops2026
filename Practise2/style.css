@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Georgia, "Times New Roman", serif;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #f8f0e3, #d9f2e6);
+  color: #1d2b2a;
+}
+
+.container {
+  width: min(90vw, 520px);
+  padding: 2rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+button {
+  border: none;
+  padding: 0.7rem 1.1rem;
+  border-radius: 8px;
+  background: #0f766e;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0b5f58;
+}
